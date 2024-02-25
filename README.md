@@ -1,25 +1,89 @@
-# token-smart-contract
-**The MAZZE token is an ERC20 token.**
+# Mazze Token (MAZZE)
 
-The MAZZE token, specifically from the mainnet, serves as the cornerstone of the Mazze ecosystem, crucially driving the platform's functionality and nurturing its community. This token, distinct from the wrapped version on Ethereum prior to the mainnet launch, is intricately woven into the Mazze ecosystem's structure. It provides a diverse range of utilities, from enabling transactions to enhancing network operations and user engagement within the decentralized space. As the primary component of Mazze's blockchain framework, the mainnet's MAZZE token is poised to revolutionize how users interact and contribute within the decentralized space.
+## Overview
+//
 
-The total supply of the token is **5,000,000,000** and each token is divisible up to 18 decimal places.
+## Features
+- **ERC20 Compliance** | Fully compliant with the ERC20 standard, ensuring compatibility with a wide range of Ethereum-based services and protocols.
+- **OpenZeppelin Security** | Built on top of OpenZeppelin contracts, ensuring industry-standard security and reliability.
+- **Decentralized** | Operates on the Ethereum blockchain, offering a decentralized solution for token operations.
 
-**Details**
-Deployments: https://etherscan.io/tx/0x25de7960b8f373bd8b0c461753b2f6b886da4ee6397caa5c9fe13a2d20f0e187
-Decimals: 18
-Name: MAZZE
-Symbol: MAZZE
+## Utility
 
-**Wrapped MAZZE Token's Utility**
+- **Facilitates Immediate Liquidity** | The wrapped MAZZE token, launched on an established blockchain, leverages the existing infrastructure to offer immediate liquidity, crucial for the token's early market presence.
 
-**Facilitates Immediate Liquidity** | The wrapped MAZZE token, launched on an established blockchain, leverages the existing infrastructure to offer immediate liquidity, crucial for the token's early market presence.
+- **Token Sale for Development Funding** | The token sale of wrapped MAZZE is instrumental in generating funds for Mazze’s development and operations. This phase is vital for community building and engaging early adopters.
 
-**Token Sale for Development Funding** | The token sale of wrapped MAZZE is instrumental in generating funds for Mazze’s development and operations. This phase is vital for community building and engaging early adopters.
+- **Accessibility on Decentralized Exchanges (DEXs)** | Listing on DEXs like Uniswap enhances the token's accessibility, fostering liquidity and enabling decentralized price discovery. Expansion via Centralized Exchanges (CEXs) | By listing on CEXs, the wrapped MAZZE token reaches a wider investor base, adding liquidity and providing diverse trading options. This step is key to gaining mainstream market exposure.
 
-**Accessibility on Decentralized Exchanges (DEXs)** | Listing on DEXs like Uniswap enhances the token's accessibility, fostering liquidity and enabling decentralized price discovery.
-Expansion via Centralized Exchanges (CEXs) | By listing on CEXs, the wrapped MAZZE token reaches a wider investor base, adding liquidity and providing diverse trading options. This step is key to gaining mainstream market exposure.
+- **Seamless Transition Post-Mainnet** | Post-mainnet, a Ethereum-Mazze bridge will be implemented, allowing the exchange of wrapped MAZZE tokens for native MAZZE tokens. This process is vital for a smooth transition for token holders.
 
-**Seamless Transition Post-Mainnet** | Post-mainnet, a Ethereum-Mazze bridge will be implemented, allowing the exchange of wrapped MAZZE tokens for native MAZZE tokens. This process is vital for a smooth transition for token holders.
+- **Supports Mazze's Market Stability** | The multi-faceted approach to the wrapped MAZZE token ensures Mazze maintains a stable market presence during development, enhancing the token's long-term value and utility in the blockchain ecosystem.
 
-**Supports Mazze's Market Stability** | The multi-faceted approach to the wrapped MAZZE token ensures Mazze maintains a stable market presence during development, enhancing the token's long-term value and utility in the blockchain ecosystem.
+## Getting Started
+To interact with the Mazze token, you need an environment capable of deploying and interacting with Ethereum smart contracts. This typically involves the following:
+
+1. **Node.js** | nsure you have Node.js installed on your system.
+2. **Truffle Suite** | Use Truffle for compiling, deploying, and testing your contracts.
+3. **Ganache** | A personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests.
+4. **MetaMask** | A browser extension that allows you to interact with Ethereum networks.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/mazze-token.git
+   ```
+2. Install dependencies:
+   ```bash
+   cd mazze-token
+   npm install
+   ```
+### Deployment
+To deploy the MAZZE token to a local testnet using Ganache:
+
+1. Start Ganache and ensure it's running on the correct port (usually 7545).
+2. Compile the smart contracts:
+   ```bash
+   truffle compile
+   ```
+3. Deploy the contracts to your local network:
+   ```bash
+   truffle migrate --network development
+   ```
+## Testing
+To run the test suite for the MAZZE token:
+
+```bash
+truffle test
+```
+
+This will execute the test scripts defined in the `test` folder.
+
+## Contributing
+Contributions to the Mazze project are welcome. Please ensure that your contributions adhere to the following guidelines:
+- Follow existing code style and conventions.
+- Write tests for new features and bug fixes.
+- Document new code based on the [JSDoc](https://jsdoc.app/) standard.
+- Create a pull request with a clear description of your changes.
+
+## Testing
+To run the test suite for the MAZZE token:
+
+```bash
+truffle test
+```
+
+This will execute the test scripts defined in the `test` folder.
+
+## Contributing
+Contributions to the Mazze project are welcome. Please ensure that your contributions adhere to the following guidelines:
+- Follow existing code style and conventions.
+- Write tests for new features and bug fixes.
+- Document new code based on the [JSDoc](https://jsdoc.app/) standard.
+- Create a pull request with a clear description of your changes.
+
+## License
+The Mazze project is open source and licensed under the [MIT License](https://opensource.org/licenses/MIT). This license allows anyone to freely use, modify, distribute, and sublicense the project, subject to the conditions of the MIT License. 
+
+## Contact
+For any inquiries, please open an issue on the GitHub repository.
