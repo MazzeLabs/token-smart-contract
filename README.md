@@ -31,11 +31,11 @@ To interact with the Mazze token, you need an environment capable of deploying a
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mazze-token.git
+   git clone https://github.com/MazzeLabs/token-smart-contract
    ```
 2. Install dependencies:
    ```bash
-   cd mazze-token
+   cd token-smart-contract
    npm install
    ```
 ### Deployment
